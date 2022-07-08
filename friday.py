@@ -6,3 +6,4 @@ def giris():
     b = input("2. Sayıyı giriniz: ")
     return cikartma(a,b) if a != b and a.isdigit() and b.isdigit() else giris()
 print(giris())
+print("Have a nice Friday")
