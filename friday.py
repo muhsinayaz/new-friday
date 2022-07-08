@@ -7,3 +7,5 @@ def giris():
     return cikartma(a,b) if a != b and a.isdigit() and b.isdigit() else giris()
 print(giris())
 print("Have a nice Friday")
+"""feature-1 branchında remote repo da değişiklik yapıyoruz
+local branch ta remote vs"""
